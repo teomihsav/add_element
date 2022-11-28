@@ -2,20 +2,19 @@
 
 .rotate {
   margin: 5rem;
-  width: 300px;
+  width: 50px;
   animation: rotation 2s infinite linear;
-  mask-size: 100px 200px;
 }
-.leftRight {
-  left: 100%;
-  right: 100%;
-  -transform: translate(-100%,100%);
+.swingParent {
+  margin: 5rem;
+  width: 300px;
+  animation: 2s ease-in-out infinite alternate swingParent;
 }
-/* @keyframes rotation {
+@keyframes rotation {
   from {
-    transform: rotate(0deg);
+    transform: translateX(-500%) rotate(0deg);
   }
   to {
-    transform: rotate(359deg);
+    transform: translateX(500%) rotate(360deg) ;
   }
-} */
+}
