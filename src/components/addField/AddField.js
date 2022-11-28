@@ -25,7 +25,7 @@ const AddField = () => {
     <div>
       <div
         onClick={addField}
-        style={{ border: "2px solid lightblue", textAlign: 'center', fontSize: '1.5rem', width: '150px', height: ' 40px' }}
+        style={{ cursor: 'pointer', border: "2px solid lightblue", textAlign: 'center', fontSize: '1.5rem', width: '150px', height: ' 40px' }}
       >
         Click me
       </div>

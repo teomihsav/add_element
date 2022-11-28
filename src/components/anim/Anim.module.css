@@ -1,0 +1,21 @@
+
+
+.rotate {
+  margin: 5rem;
+  width: 300px;
+  animation: rotation 2s infinite linear;
+  mask-size: 100px 200px;
+}
+.leftRight {
+  left: 100%;
+  right: 100%;
+  -transform: translate(-100%,100%);
+}
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
